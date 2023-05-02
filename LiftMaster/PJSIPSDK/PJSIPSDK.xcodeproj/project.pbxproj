@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFDF16B129FC05460099C14C /* PJSIPSDK.docc in Sources */ = {isa = PBXBuildFile; fileRef = BFDF16B029FC05460099C14C /* PJSIPSDK.docc */; };
+		BFDF16B229FC05460099C14C /* PJSIPSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = BFDF16AF29FC05460099C14C /* PJSIPSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFDF19A129FC13670099C14C /* PushRegistryManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BFDF198629FC13670099C14C /* PushRegistryManager.h */; };
+		BFDF19A229FC13670099C14C /* SipDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BFDF198729FC13670099C14C /* SipDataManager.h */; };
+		BFDF19A329FC13670099C14C /* SipCallInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDF198829FC13670099C14C /* SipCallInfo.m */; };
+		BFDF19A429FC13670099C14C /* CToObjCBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = BFDF198929FC13670099C14C /* CToObjCBridge.h */; };
+		BFDF19A529FC13670099C14C /* SipEndPoint.hpp in Headers */ = {isa = PBXBuildFile; fileRef = BFDF198A29FC13670099C14C /* SipEndPoint.hpp */; };
+		BFDF19A629FC13670099C14C /* SipManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFDF198B29FC13670099C14C /* SipManager.cpp */; };
+		BFDF19A729FC13670099C14C /* SipAccount.hpp in Headers */ = {isa = PBXBuildFile; fileRef = BFDF198C29FC13670099C14C /* SipAccount.hpp */; };
+		BFDF19A829FC13670099C14C /* SipCall.hpp in Headers */ = {isa = PBXBuildFile; fileRef = BFDF198D29FC13670099C14C /* SipCall.hpp */; };
+		BFDF19A929FC13670099C14C /* SipRegisterInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDF198E29FC13670099C14C /* SipRegisterInfo.m */; };
+		BFDF19AA29FC13670099C14C /* IncomingPushCallObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDF198F29FC13670099C14C /* IncomingPushCallObject.m */; };
+		BFDF19AB29FC13670099C14C /* SipManagerBridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = BFDF199029FC13670099C14C /* SipManagerBridge.mm */; };
+		BFDF19AC29FC13670099C14C /* ParsingCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDF199129FC13670099C14C /* ParsingCategories.m */; };
+		BFDF19AD29FC13670099C14C /* SipManagerBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = BFDF199229FC13670099C14C /* SipManagerBridge.h */; };
+		BFDF19AE29FC13670099C14C /* SipCallInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = BFDF199329FC13670099C14C /* SipCallInfo.h */; };
+		BFDF19AF29FC13670099C14C /* SipDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDF199429FC13670099C14C /* SipDataManager.m */; };
+		BFDF19B029FC13670099C14C /* SIPConstant.h in Headers */ = {isa = PBXBuildFile; fileRef = BFDF199529FC13670099C14C /* SIPConstant.h */; };
+		BFDF19B129FC13670099C14C /* PushRegistryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDF199629FC13670099C14C /* PushRegistryManager.m */; };
+		BFDF19B229FC13670099C14C /* PhoneConstant.h in Headers */ = {isa = PBXBuildFile; fileRef = BFDF199729FC13670099C14C /* PhoneConstant.h */; };
+		BFDF19B329FC13670099C14C /* SipRegisterInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = BFDF199829FC13670099C14C /* SipRegisterInfo.h */; };
+		BFDF19B429FC13670099C14C /* CallKitManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BFDF199929FC13670099C14C /* CallKitManager.h */; };
+		BFDF19B529FC13670099C14C /* CallKitManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = BFDF199A29FC13670099C14C /* CallKitManager.mm */; };
+		BFDF19B629FC13670099C14C /* SipManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BFDF199B29FC13670099C14C /* SipManager.h */; };
+		BFDF19B729FC13670099C14C /* SipEndPoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFDF199C29FC13670099C14C /* SipEndPoint.cpp */; };
+		BFDF19B829FC13670099C14C /* ParsingCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = BFDF199D29FC13670099C14C /* ParsingCategories.h */; };
+		BFDF19B929FC13670099C14C /* SipAccount.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFDF199E29FC13670099C14C /* SipAccount.cpp */; };
+		BFDF19BA29FC13670099C14C /* IncomingPushCallObject.h in Headers */ = {isa = PBXBuildFile; fileRef = BFDF199F29FC13670099C14C /* IncomingPushCallObject.h */; };
+		BFDF19BB29FC13670099C14C /* SipCall.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFDF19A029FC13670099C14C /* SipCall.cpp */; };
+		BFDF228029FCFD460099C14C /* SettingsKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFDF227F29FCFD460099C14C /* SettingsKit.xcframework */; };
+		BFDF228129FCFD460099C14C /* SettingsKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BFDF227F29FCFD460099C14C /* SettingsKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BFDF19BF29FC13970099C14C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BFDF228129FCFD460099C14C /* SettingsKit.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BFDF16AC29FC05460099C14C /* PJSIPSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PJSIPSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFDF16AF29FC05460099C14C /* PJSIPSDK.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; path = PJSIPSDK.h; sourceTree = "<group>"; };
+		BFDF16B029FC05460099C14C /* PJSIPSDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = PJSIPSDK.docc; sourceTree = "<group>"; };
+		BFDF198629FC13670099C14C /* PushRegistryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushRegistryManager.h; sourceTree = "<group>"; };
+		BFDF198729FC13670099C14C /* SipDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SipDataManager.h; sourceTree = "<group>"; };
+		BFDF198829FC13670099C14C /* SipCallInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SipCallInfo.m; sourceTree = "<group>"; };
+		BFDF198929FC13670099C14C /* CToObjCBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CToObjCBridge.h; sourceTree = "<group>"; };
+		BFDF198A29FC13670099C14C /* SipEndPoint.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SipEndPoint.hpp; sourceTree = "<group>"; };
+		BFDF198B29FC13670099C14C /* SipManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SipManager.cpp; sourceTree = "<group>"; };
+		BFDF198C29FC13670099C14C /* SipAccount.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SipAccount.hpp; sourceTree = "<group>"; };
+		BFDF198D29FC13670099C14C /* SipCall.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SipCall.hpp; sourceTree = "<group>"; };
+		BFDF198E29FC13670099C14C /* SipRegisterInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SipRegisterInfo.m; sourceTree = "<group>"; };
+		BFDF198F29FC13670099C14C /* IncomingPushCallObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IncomingPushCallObject.m; sourceTree = "<group>"; };
+		BFDF199029FC13670099C14C /* SipManagerBridge.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SipManagerBridge.mm; sourceTree = "<group>"; };
+		BFDF199129FC13670099C14C /* ParsingCategories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParsingCategories.m; sourceTree = "<group>"; };
+		BFDF199229FC13670099C14C /* SipManagerBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SipManagerBridge.h; sourceTree = "<group>"; };
+		BFDF199329FC13670099C14C /* SipCallInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SipCallInfo.h; sourceTree = "<group>"; };
+		BFDF199429FC13670099C14C /* SipDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SipDataManager.m; sourceTree = "<group>"; };
+		BFDF199529FC13670099C14C /* SIPConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIPConstant.h; sourceTree = "<group>"; };
+		BFDF199629FC13670099C14C /* PushRegistryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushRegistryManager.m; sourceTree = "<group>"; };
+		BFDF199729FC13670099C14C /* PhoneConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneConstant.h; sourceTree = "<group>"; };
+		BFDF199829FC13670099C14C /* SipRegisterInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SipRegisterInfo.h; sourceTree = "<group>"; };
+		BFDF199929FC13670099C14C /* CallKitManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallKitManager.h; sourceTree = "<group>"; };
+		BFDF199A29FC13670099C14C /* CallKitManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CallKitManager.mm; sourceTree = "<group>"; };
+		BFDF199B29FC13670099C14C /* SipManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SipManager.h; sourceTree = "<group>"; };
+		BFDF199C29FC13670099C14C /* SipEndPoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SipEndPoint.cpp; sourceTree = "<group>"; };
+		BFDF199D29FC13670099C14C /* ParsingCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParsingCategories.h; sourceTree = "<group>"; };
+		BFDF199E29FC13670099C14C /* SipAccount.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SipAccount.cpp; sourceTree = "<group>"; };
+		BFDF199F29FC13670099C14C /* IncomingPushCallObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IncomingPushCallObject.h; sourceTree = "<group>"; };
+		BFDF19A029FC13670099C14C /* SipCall.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SipCall.cpp; sourceTree = "<group>"; };
+		BFDF227F29FCFD460099C14C /* SettingsKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SettingsKit.xcframework; path = "../Running samples/SampleSDK/SettingsKit/build/SettingsKit.xcframework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFDF16A929FC05460099C14C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFDF228029FCFD460099C14C /* SettingsKit.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAA45EA41BC458872ED7A573 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFDF227F29FCFD460099C14C /* SettingsKit.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFDF16A229FC05460099C14C = {
+			isa = PBXGroup;
+			children = (
+				BFDF16AE29FC05460099C14C /* PJSIPSDK */,
+				BFDF16AD29FC05460099C14C /* Products */,
+				AAA45EA41BC458872ED7A573 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BFDF16AD29FC05460099C14C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFDF16AC29FC05460099C14C /* PJSIPSDK.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFDF16AE29FC05460099C14C /* PJSIPSDK */ = {
+			isa = PBXGroup;
+			children = (
+				BFDF198529FC13670099C14C /* Sip */,
+				BFDF16AF29FC05460099C14C /* PJSIPSDK.h */,
+				BFDF16B029FC05460099C14C /* PJSIPSDK.docc */,
+			);
+			path = PJSIPSDK;
+			sourceTree = "<group>";
+		};
+		BFDF198529FC13670099C14C /* Sip */ = {
+			isa = PBXGroup;
+			children = (
+				BFDF198629FC13670099C14C /* PushRegistryManager.h */,
+				BFDF198729FC13670099C14C /* SipDataManager.h */,
+				BFDF198829FC13670099C14C /* SipCallInfo.m */,
+				BFDF198929FC13670099C14C /* CToObjCBridge.h */,
+				BFDF198A29FC13670099C14C /* SipEndPoint.hpp */,
+				BFDF198B29FC13670099C14C /* SipManager.cpp */,
+				BFDF198C29FC13670099C14C /* SipAccount.hpp */,
+				BFDF198D29FC13670099C14C /* SipCall.hpp */,
+				BFDF198E29FC13670099C14C /* SipRegisterInfo.m */,
+				BFDF198F29FC13670099C14C /* IncomingPushCallObject.m */,
+				BFDF199029FC13670099C14C /* SipManagerBridge.mm */,
+				BFDF199129FC13670099C14C /* ParsingCategories.m */,
+				BFDF199229FC13670099C14C /* SipManagerBridge.h */,
+				BFDF199329FC13670099C14C /* SipCallInfo.h */,
+				BFDF199429FC13670099C14C /* SipDataManager.m */,
+				BFDF199529FC13670099C14C /* SIPConstant.h */,
+				BFDF199629FC13670099C14C /* PushRegistryManager.m */,
+				BFDF199729FC13670099C14C /* PhoneConstant.h */,
+				BFDF199829FC13670099C14C /* SipRegisterInfo.h */,
+				BFDF199929FC13670099C14C /* CallKitManager.h */,
+				BFDF199A29FC13670099C14C /* CallKitManager.mm */,
+				BFDF199B29FC13670099C14C /* SipManager.h */,
+				BFDF199C29FC13670099C14C /* SipEndPoint.cpp */,
+				BFDF199D29FC13670099C14C /* ParsingCategories.h */,
+				BFDF199E29FC13670099C14C /* SipAccount.cpp */,
+				BFDF199F29FC13670099C14C /* IncomingPushCallObject.h */,
+				BFDF19A029FC13670099C14C /* SipCall.cpp */,
+			);
+			path = Sip;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BFDF16A729FC05460099C14C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFDF19B329FC13670099C14C /* SipRegisterInfo.h in Headers */,
+				BFDF19B429FC13670099C14C /* CallKitManager.h in Headers */,
+				BFDF16B229FC05460099C14C /* PJSIPSDK.h in Headers */,
+				BFDF19A229FC13670099C14C /* SipDataManager.h in Headers */,
+				BFDF19A529FC13670099C14C /* SipEndPoint.hpp in Headers */,
+				BFDF19BA29FC13670099C14C /* IncomingPushCallObject.h in Headers */,
+				BFDF19A429FC13670099C14C /* CToObjCBridge.h in Headers */,
+				BFDF19B829FC13670099C14C /* ParsingCategories.h in Headers */,
+				BFDF19AD29FC13670099C14C /* SipManagerBridge.h in Headers */,
+				BFDF19A129FC13670099C14C /* PushRegistryManager.h in Headers */,
+				BFDF19AE29FC13670099C14C /* SipCallInfo.h in Headers */,
+				BFDF19B629FC13670099C14C /* SipManager.h in Headers */,
+				BFDF19B029FC13670099C14C /* SIPConstant.h in Headers */,
+				BFDF19A729FC13670099C14C /* SipAccount.hpp in Headers */,
+				BFDF19A829FC13670099C14C /* SipCall.hpp in Headers */,
+				BFDF19B229FC13670099C14C /* PhoneConstant.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BFDF16AB29FC05460099C14C /* PJSIPSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFDF16B529FC05460099C14C /* Build configuration list for PBXNativeTarget "PJSIPSDK" */;
+			buildPhases = (
+				BFDF16A729FC05460099C14C /* Headers */,
+				BFDF16A829FC05460099C14C /* Sources */,
+				BFDF16A929FC05460099C14C /* Frameworks */,
+				BFDF16AA29FC05460099C14C /* Resources */,
+				BFDF19BF29FC13970099C14C /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PJSIPSDK;
+			productName = PJSIPSDK;
+			productReference = BFDF16AC29FC05460099C14C /* PJSIPSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDF16A329FC05460099C14C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					BFDF16AB29FC05460099C14C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = BFDF16A629FC05460099C14C /* Build configuration list for PBXProject "PJSIPSDK" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFDF16A229FC05460099C14C;
+			productRefGroup = BFDF16AD29FC05460099C14C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFDF16AB29FC05460099C14C /* PJSIPSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFDF16AA29FC05460099C14C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFDF16A829FC05460099C14C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFDF19A329FC13670099C14C /* SipCallInfo.m in Sources */,
+				BFDF19A929FC13670099C14C /* SipRegisterInfo.m in Sources */,
+				BFDF19AC29FC13670099C14C /* ParsingCategories.m in Sources */,
+				BFDF16B129FC05460099C14C /* PJSIPSDK.docc in Sources */,
+				BFDF19B929FC13670099C14C /* SipAccount.cpp in Sources */,
+				BFDF19B729FC13670099C14C /* SipEndPoint.cpp in Sources */,
+				BFDF19B529FC13670099C14C /* CallKitManager.mm in Sources */,
+				BFDF19B129FC13670099C14C /* PushRegistryManager.m in Sources */,
+				BFDF19BB29FC13670099C14C /* SipCall.cpp in Sources */,
+				BFDF19AF29FC13670099C14C /* SipDataManager.m in Sources */,
+				BFDF19AB29FC13670099C14C /* SipManagerBridge.mm in Sources */,
+				BFDF19AA29FC13670099C14C /* IncomingPushCallObject.m in Sources */,
+				BFDF19A629FC13670099C14C /* SipManager.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BFDF16B329FC05460099C14C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BFDF16B429FC05460099C14C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BFDF16B629FC05460099C14C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = N9AK27U8W6;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"PJ_AUTOCONF=1",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "";
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.phone.-SettingsKit.PJSIPSDK";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFDF16B729FC05460099C14C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = N9AK27U8W6;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"PJ_AUTOCONF=1",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "";
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.phone.-SettingsKit.PJSIPSDK";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFDF16A629FC05460099C14C /* Build configuration list for PBXProject "PJSIPSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFDF16B329FC05460099C14C /* Debug */,
+				BFDF16B429FC05460099C14C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFDF16B529FC05460099C14C /* Build configuration list for PBXNativeTarget "PJSIPSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFDF16B629FC05460099C14C /* Debug */,
+				BFDF16B729FC05460099C14C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDF16A329FC05460099C14C /* Project object */;
+}
